@@ -7,5 +7,5 @@ app = FastAPI()
 def extract():
     url = 'https://leetcode.com/problemset/'
     data = fetch(url)
-    print(data)
+    # print(data)
     return data
